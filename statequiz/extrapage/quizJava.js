@@ -157,14 +157,14 @@ const questions = [
         
         pos++;
         
-        renderQuestion();
+        makeQuestion();
       }
 
 
       
 
 
-      window.addEventListener("load", renderQuestion, false);
+      window.addEventListener("load", makeQuestion, false);
 
 ////////////////////
 
